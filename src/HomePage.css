@@ -1,0 +1,262 @@
+/* HomePage.css */
+
+/* Basic styles */
+
+/* Rest of your CSS remains the same */
+body{
+  
+  font-family:cursive;
+  margin: 0;
+  padding: 0;
+  display: flex; /* Use flexbox to align content */
+  flex-direction: column; /* Stack children vertically */
+  min-height: 100vh; /* Set minimum height to the viewport height */
+  justify-content: center; /* Center vertically */
+  background-image: url('https://images.unsplash.com/photo-1464618663641-bbdd760ae84a?q=80&w=1000&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8Mnx8d2Vic2l0ZSUyMGJhY2tncm91bmR8ZW58MHx8MHx8fDA%3D'); /* Replace with your image URL */
+  background-size: cover; /* Cover the entire background */
+  background-position: center; /* Center the background image */
+  background-repeat: no-repeat; /* Prevent the image from repeating */
+  opacity: 0.9; /* Adjust the opacity */
+}
+.container {
+    width: 100%;
+    margin: 0 auto;
+}
+
+/* Navbar styles */
+.navbar {
+    width: 100%; /* Full width */
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #337AFF; /* Transparent black color for navbar */
+    color: white;
+    padding: 20px;
+}
+
+.nav-links {
+    list-style: none;
+    display: flex;
+}
+
+.nav-links li {
+    margin-right: 20px;
+}
+
+.nav-links a {
+    text-decoration: none;
+    color: white;
+}
+
+/* Grid styles */
+.grid-container {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 20px;
+    margin-top: 20px;
+    margin-left: 40px;
+    margin-right: 40px;
+}
+
+.grid-item {
+    /* Ensure images don't exceed their container */
+    overflow: hidden;
+}
+
+.grid-item img {
+    width: 100%; /* Take full width of the grid item */
+    height: 100%; /* Take full height of the grid item */
+    object-fit: cover; /* Ensure the image covers the entire space */
+}
+
+/* Footer styles */
+.footer {
+    width: 100%;
+    background-color: #337AFF
+    ; /* Transparent black color for footer */
+    color: white;
+    text-align: center;
+    padding: 20px 0;
+    flex-shrink: 0;
+    margin-top: 20px;
+}
+
+.signup-button {
+    padding: 10px 20px;
+    background-color: #1B1164; /* Green */
+    border: none;
+    color: white;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin-right: 40px;
+    margin-left: auto; /* Adjust spacing */
+    cursor: pointer;
+    border-radius: 5px;
+}
+
+.signup-button:hover {
+    background-color: #3C44AB; /* Darker green on hover */
+}
+/* Your existing CSS styles */
+
+/* Form styles */
+.booking-form {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-top: 20px;
+}
+
+.booking-form label {
+  margin-bottom: 5px;
+}
+
+.booking-form input,
+.booking-form button {
+  margin-bottom: 10px;
+  padding: 8px;
+  border-radius: 5px;
+  border: 1px solid #ccc;
+}
+
+.booking-form button {
+  background-color: #1B1164;
+  color: white;
+  border: none;
+  cursor: pointer;
+}
+/* Updated HomePage.css */
+
+/* Rest of your styles */
+
+/* Content styles */
+.content {
+  text-align: center;
+  margin-top: 50px;
+}
+
+.search-form {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.form-group {
+  margin-bottom: 20px;
+}
+
+label {
+  margin-bottom: 5px;
+}
+
+input {
+  padding: 8px;
+  border-radius: 5px;
+  border: 1px solid #ccc;
+  width: 250px;
+}
+
+button {
+  padding: 10px 20px;
+  background-color: #1B1164;
+  border: none;
+  color: white;
+  text-align: center;
+  text-decoration: none;
+  font-size: 16px;
+  cursor: pointer;
+  border-radius: 5px;
+}
+
+button:hover {
+  background-color: #3C44AB;
+}
+.content {
+    text-align: center;
+    margin: 20px;
+  }
+  
+  .form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 10px;
+  }
+  
+  .form label {
+    font-weight: bold;
+  }
+  
+  .form input {
+    padding: 8px;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+  }
+  
+  .submit-button {
+    padding: 10px 20px;
+    background-color: #1B1164;
+    border: none;
+    color: white;
+    text-align: center;
+    text-decoration: none;
+    font-size: 16px;
+    cursor: pointer;
+    border-radius: 5px;
+    transition: background-color 0.3s ease;
+  }
+  
+  .submit-button:hover {
+    background-color: #3C44AB;
+  }
+/* Rest of your CSS */
+
+.content {
+    text-align: center;
+    margin-top: 50px;
+  }
+  
+  .form-wrapper {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .image-wrapper {
+    flex: 1;
+    text-align: right;
+    padding-right: 20px; /* Adjust spacing */
+  }
+  
+  .image-wrapper img {
+    max-width: 100%;
+    height: auto;
+    border-radius: 5px;
+  }
+  
+  .form-container {
+    flex: 1;
+    text-align: left;
+  }
+  
+  .form {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    align-items: center;
+  }
+  .plan{
+    text-align: center;
+  }
+  .footer-icons {
+    display: flex;
+    justify-content: space-around;
+  }
+  
+  .footer-icons img {
+    width: 30px; /* Set the desired width for the icons */
+    margin: 0 10px; 
+  }
+  

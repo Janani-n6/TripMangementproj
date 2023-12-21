@@ -1,0 +1,63 @@
+/* SignUpPage.css */
+
+/* Apply a background image to the entire page */
+/* body{
+  
+  height:100%;
+  width: 100%;
+  background-image:linear-gradient(rgba(0,0,0,0.4),rgba(0,0,0,0.4)),url(img.jpeg) ;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  position: absolute;
+} */
+  
+  .signup-container {
+    max-width: 400px;
+    margin: 100px auto; /* Change margin-top to move the form down */
+    padding: 20px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    background-color: rgba(255, 255, 255, 0.8); /* Semi-transparent white background */
+    background: transparent;
+    backdrop-filter: blur(15px);
+    box-shadow: 0 0 30px black;
+  }
+  
+  .signup-form {
+    display: flex;
+    flex-direction: column;
+    
+  }
+  #username{
+    width:95%;
+    height: 20px;
+    border-radius: 5px;
+    border:transparent;
+  }
+  label {
+    margin-bottom: 5px;
+  }
+  
+  input[type="text"],
+  input[type="email"],
+  input[type="password"] {
+    margin-bottom: 15px;
+    padding: 8px;
+    border-radius: 3px;
+    border: 1px solid #ccc;
+  }
+  
+  button.signup-button {
+    padding: 10px 15px;
+    background-color: #007bff;
+    color: white;
+    border: none;
+    border-radius: 3px;
+    cursor: pointer;
+  }
+  
+  button.signup-button:hover {
+    background-color: #0056b3;
+  }
+  
